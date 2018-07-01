@@ -2,4 +2,4 @@
 
 composer install
 composer install-tome
-drush tome:static
+drush tome:static -l https://umami.netlify.com/
