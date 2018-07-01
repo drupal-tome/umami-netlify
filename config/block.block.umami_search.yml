@@ -1,0 +1,22 @@
+uuid: cfa24db1-4399-4a19-aa4b-5984e3377244
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - umami
+_core:
+  default_config_hash: e2AMQaKaAr8wc7fuChKcD6OS5N77bQWzkPVmPnTDCeE
+id: umami_search
+theme: umami
+region: header
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

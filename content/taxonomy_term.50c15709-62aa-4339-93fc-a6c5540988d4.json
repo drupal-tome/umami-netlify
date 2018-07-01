@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "50c15709-62aa-4339-93fc-a6c5540988d4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "84bbbf4e-8d53-4a41-a14b-9e689226c5cb"
+        }
+    ],
+    "name": [
+        {
+            "value": "Pastry"
+        }
+    ],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [],
+    "changed": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/tags\/pastry",
+            "pid": 18,
+            "langcode": "en"
+        }
+    ]
+}

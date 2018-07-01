@@ -1,0 +1,54 @@
+{
+    "uuid": [
+        {
+            "value": "8098eba3-5b4b-46da-ab6d-6ee77c149a31"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "84bbbf4e-8d53-4a41-a14b-9e689226c5cb"
+        }
+    ],
+    "name": [
+        {
+            "value": "Pasta"
+        }
+    ],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [],
+    "changed": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/tags\/pasta",
+            "pid": 23,
+            "langcode": "en"
+        }
+    ]
+}

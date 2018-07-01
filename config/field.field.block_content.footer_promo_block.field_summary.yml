@@ -1,0 +1,21 @@
+uuid: 9b99fe15-88ea-4a7d-aca5-0b0acfe56b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_promo_block
+    - field.storage.block_content.field_summary
+_core:
+  default_config_hash: bNXWd6SGV7qpzLFIU0VljJ8j2hTMUO779IpBXR7BJY0
+id: block_content.footer_promo_block.field_summary
+field_name: field_summary
+entity_type: block_content
+bundle: footer_promo_block
+label: 'Promo text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,80 @@
+{
+    "uuid": [
+        {
+            "value": "4c7d58a3-a45d-412d-9068-259c57e40541"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "banner_block",
+            "target_type": "block_content_type",
+            "target_uuid": "249f56bc-ed4f-4347-8b71-db4ae84676da"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Umami Recipes Banner"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_banner_image": [
+        {
+            "alt": "Mouth watering vegetarian pasta bake with rich tomato sauce and cheese toppings",
+            "title": null,
+            "width": 3000,
+            "height": 1571,
+            "target_type": "file",
+            "target_uuid": "d30bf210-31f0-46e8-bef4-2ec94085e00c"
+        }
+    ],
+    "field_content_link": [
+        {
+            "uri": "internal:\/recipes\/super-easy-vegetarian-pasta-bake",
+            "title": "Super easy vegetarian pasta bake",
+            "options": []
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family."
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Super easy vegetarian pasta bake"
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "uuid": [
+        {
+            "value": "b88ea41d-0b6b-40fe-bc78-54b6274626da"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "recipe",
+            "target_type": "node_type",
+            "target_uuid": "79ef0e05-2b8d-4895-8570-6209f5b52ab2"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "ab7d90de-645b-48fb-b10f-fd74894d87b4"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Crema catalana"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "ab7d90de-645b-48fb-b10f-fd74894d87b4"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/recipes\/crema-catalana",
+            "pid": 35,
+            "langcode": "en"
+        }
+    ],
+    "field_author": [
+        {
+            "target_type": "user",
+            "target_uuid": "ab7d90de-645b-48fb-b10f-fd74894d87b4"
+        }
+    ],
+    "field_cooking_time": [
+        {
+            "value": 20
+        }
+    ],
+    "field_difficulty": [
+        {
+            "value": "medium"
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Typical Catalan dessert made from cream and egg yolks, covered with a traditional layer of caramelized sugar to provide a crispy contrast.",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "eda450f6-defb-4f28-a0f0-43fafe95f9a8"
+        }
+    ],
+    "field_ingredients": [
+        {
+            "value": "1l milk"
+        },
+        {
+            "value": " 200g sugar"
+        },
+        {
+            "value": " 6 egg yolks"
+        },
+        {
+            "value": " 30g cornstarch"
+        },
+        {
+            "value": " 1 cinnamon stick"
+        },
+        {
+            "value": " 1 piece lemon peel"
+        }
+    ],
+    "field_number_of_servings": [
+        {
+            "value": 8
+        }
+    ],
+    "field_preparation_time": [
+        {
+            "value": 10
+        }
+    ],
+    "field_recipe_category": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7abc0efa-367b-4995-b73e-53f0c81e07df"
+        }
+    ],
+    "field_recipe_instruction": [
+        {
+            "value": "<ol>\n  <li>Mix the egg yolks, sugar, and cornstarch with 1\/3 of the milk.<\/li>\n  <li>In a saucepan, boil 2\/3 of the milk with the lemon peel and cinnamon.<\/li>\n  <li>After 3 minutes, remove from the heat and take out the lemon and cinnamon.<\/li>\n  <li>Slowly add the egg mixture to the hot milk through a strainer to ensure there are no lumps.<\/li>\n  <li>Return it to the heat until it boils, stirring constantly.<\/li>\n  <li>Once the mixture has begun to thicken, remove from the heat and put it into individual bowls to cool.<\/li>\n  <li>For an authentic finish, sprinkle with sugar and brown with a blowtorch or under a preheated broiler to caramelize.<\/li>\n<\/ol>\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "Enjoy this sweet recipe for one of the oldest desserts in Europe. It requires very few ingredients!",
+            "format": "basic_html"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "bfb1abfb-3626-4670-adfe-ec399754e27b"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "9b6ddc3a-8bfb-48a9-8ffa-1ff28db81a5d"
+        }
+    ]
+}

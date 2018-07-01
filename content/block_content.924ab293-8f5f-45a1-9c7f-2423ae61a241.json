@@ -1,0 +1,80 @@
+{
+    "uuid": [
+        {
+            "value": "924ab293-8f5f-45a1-9c7f-2423ae61a241"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "footer_promo_block",
+            "target_type": "block_content_type",
+            "target_uuid": "07879a5b-e91f-43d5-9b51-269fdfbfb5bf"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Umami footer promo"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-07-01T15:11:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content_link": [
+        {
+            "uri": "internal:\/about-umami",
+            "title": "Find out more",
+            "options": []
+        }
+    ],
+    "field_promo_image": [
+        {
+            "alt": "3 issue bundle of the Umami food magazine",
+            "title": null,
+            "width": 266,
+            "height": 236,
+            "target_type": "file",
+            "target_uuid": "7ed72494-59af-45be-ad35-6b84e7d37c26"
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "Skills and know-how. Magazine exclusive articles, recipes and plenty of reasons to get your copy today."
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Umami Food Magazine"
+        }
+    ]
+}
