@@ -1,6 +1,7 @@
+[Settings]
+ID = "umami_netlify"
+
 [build]
-
-PHP_VERSION=7.1
-
+PHP_VERSION=7.2
 command = "composer install && composer install-tome && drush tome:static"
 publish = "html"
