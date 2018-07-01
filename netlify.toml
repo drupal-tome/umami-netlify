@@ -1,0 +1,6 @@
+[build]
+
+PHP_VERSION=7.1
+
+command = "composer install && composer install-tome && drush tome:static"
+publish = "html"
