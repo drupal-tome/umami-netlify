@@ -52,5 +52,8 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"]
         }
+    },
+    "config": {
+        "process-timeout": 600
     }
 }
