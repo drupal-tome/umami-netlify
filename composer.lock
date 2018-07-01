@@ -1424,7 +1424,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/tome",
-                "reference": "61b795c93607cd7278ce3de82634428c3e5eb941"
+                "reference": "3afeed6995da6c9fe58bf1f5466f512859ab1f08"
             },
             "require": {
                 "drupal/core": "*"
@@ -1436,7 +1436,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1530415124",
+                    "datestamp": "1530453821",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1458,7 +1458,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/tome"
             },
-            "time": "2018-07-01T14:01:02+00:00"
+            "time": "2018-07-01T15:33:26+00:00"
         },
         {
             "name": "drush/drush",
