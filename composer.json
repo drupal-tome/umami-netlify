@@ -1,6 +1,6 @@
 {
-    "name": "drupal-tome/tome-project",
-    "description": "A starter project for Tome.",
+    "name": "drupal-tome/umami-netlify",
+    "description": "An example Netlify project using the Umami demo profile.",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -29,6 +29,7 @@
         "install-tome": "./scripts/install.sh",
         "run": "./scripts/run.sh",
         "symlink": "./scripts/symlink.sh",
+        "netlify": "./scripts/netlify.sh",
         "post-install-cmd": [
             "@symlink"
         ],
