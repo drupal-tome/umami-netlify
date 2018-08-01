@@ -3,5 +3,5 @@ ID = "umami_netlify"
 
 [build]
 PHP_VERSION=7.2
-command = "composer netlify"
+command = "composer install && ./vendor/bin/drush tome:install -y && ./vendor/bin/drush tome:static -l https://umami.netlify.com/"
 publish = "html"

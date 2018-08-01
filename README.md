@@ -1,9 +1,9 @@
-# Composer template for Tome projects
+# Drupal's Umami demo with Tome & Netlify!
 
-This project is a great place to start for building brand new Tome projects.
+This project uses the Drupal [Tome] module with the Umami theme to demonstrate
+how Tome projects can run on Netlify.
 
-There isn't much here now, but keep posted and let me know if anything doesn't
-work!
+To view the latest build of the repository, visit https://umami.netlify.com
 
 ## Usage
 
@@ -16,11 +16,20 @@ composer create-project drupal-tome/tome-project my_site --stability dev --no-in
 To install Tome, run:
 
 ```
-composer install-tome
+composer install
+./vendor/bin/drush tome:install
 ```
 
 To start a local webserver, run:
 
 ```
-composer run
+./vendor/bin/drush run-server
 ```
+
+To test the static build, run:
+
+```
+./vendor/bin/drush tome-static --run-server
+```
+
+[Tome]: https://www.drupal.org/project/tome
