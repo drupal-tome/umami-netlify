@@ -7,13 +7,7 @@ To view the latest build of the repository, visit https://umami.netlify.com
 
 ## Usage
 
-To create a new Tome project, run:
-
-```
-composer create-project drupal-tome/tome-project my_site --stability dev --no-interaction
-```
-
-To install Tome, run:
+To install, run:
 
 ```
 composer install
@@ -31,5 +25,11 @@ To test the static build, run:
 ```
 ./vendor/bin/drush tome-static --run-server
 ```
+
+### Netlify integration
+
+The `netlify.toml` file contains the information necessary to run the build.
+You should be able to fork or copy this project and use it with Netlify with no
+extra configuration.
 
 [Tome]: https://www.drupal.org/project/tome
