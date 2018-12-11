@@ -36,7 +36,10 @@ module:
   system: 0
   taxonomy: 0
   text: 0
-  tome: 0
+  tome_base: 0
+  tome_netlify: 0
+  tome_static: 0
+  tome_sync: 0
   toolbar: 0
   tour: 0
   update: 0

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d26cb3b0d0351c9e8dd87a7c31f03fc",
+    "content-hash": "a5b9b87abbfaf8846b34fd52651085f9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1661,6 +1661,9 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
+                },
+                "patches_applied": {
+                    "Alt text lost when normalizing": "https://www.drupal.org/files/issues/2018-06-05/2935738-14.patch"
                 }
             },
             "autoload": {
@@ -1692,10 +1695,16 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/tome",
-                "reference": "262289f10b2fa3ac68b7e6479f98445ff1db8346"
+                "reference": "350fb4f719ad2b54f2306f0169467f26e2eac388"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "~8.0",
+                "drupal/tome_static": "*",
+                "drupal/tome_sync": "*"
+            },
+            "require-dev": {
+                "drupal/redirect": "*",
+                "drupal/tome_base": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -1703,11 +1712,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1532793781",
+                    "version": "8.x-1.0-beta1+4-dev",
+                    "datestamp": "1543988584",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1726,7 +1735,167 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/tome"
             },
-            "time": "2018-07-28T19:46:43+00:00"
+            "time": "2018-12-05T06:18:51+00:00"
+        },
+        {
+            "name": "drupal/tome_base",
+            "version": "dev-1.x",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/tome": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1+4-dev",
+                    "datestamp": "1543988584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Contains shared services and traits between Tome Sync and Tome Static.",
+            "homepage": "https://www.drupal.org/project/tome",
+            "support": {
+                "source": "http://cgit.drupalcode.org/tome"
+            }
+        },
+        {
+            "name": "drupal/tome_netlify",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/tome_netlify",
+                "reference": "cc360417d79086adf0db3ae39bea8440b7e566f4"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/tome": "^1.0-beta2 || 1.x-dev",
+                "drupal/tome_static": "*"
+            },
+            "require-dev": {
+                "drupal/redirect": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1544113680",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Provides integrations between Tome and Netlify.",
+            "homepage": "https://www.drupal.org/project/tome_netlify",
+            "support": {
+                "source": "http://cgit.drupalcode.org/tome_netlify"
+            },
+            "time": "2018-12-06T16:31:00+00:00"
+        },
+        {
+            "name": "drupal/tome_static",
+            "version": "dev-1.x",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/tome": "self.version",
+                "drupal/tome_base": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1+4-dev",
+                    "datestamp": "1543988584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Exports an entire Drupal site to static HTML.",
+            "homepage": "https://www.drupal.org/project/tome",
+            "support": {
+                "source": "http://cgit.drupalcode.org/tome"
+            }
+        },
+        {
+            "name": "drupal/tome_sync",
+            "version": "dev-1.x",
+            "require": {
+                "drupal/core": "*",
+                "drupal/tome": "self.version",
+                "drupal/tome_base": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1+4-dev",
+                    "datestamp": "1543988584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Allows Drupal to installed from flat files and keeps content in sync.",
+            "homepage": "https://www.drupal.org/project/tome",
+            "support": {
+                "source": "http://cgit.drupalcode.org/tome"
+            }
         },
         {
             "name": "drush/drush",
@@ -4724,7 +4893,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/tome": 20,
-        "drupal-tome/tome_drush": 20
+        "drupal-tome/tome_drush": 20,
+        "drupal/tome_netlify": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

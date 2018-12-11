@@ -24,7 +24,8 @@
         "drupal/core": "~8.5.3",
         "drush/drush": "^9.0.0",
         "drupal/tome": "1.x-dev",
-        "drupal-tome/tome_drush": "dev-master"
+        "drupal-tome/tome_drush": "dev-master",
+        "drupal/tome_netlify": "1.x-dev"
     },
     "scripts": {
         "symlink": "./scripts/symlink.sh",
