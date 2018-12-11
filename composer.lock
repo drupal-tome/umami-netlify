@@ -1695,7 +1695,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/tome",
-                "reference": "350fb4f719ad2b54f2306f0169467f26e2eac388"
+                "reference": "8c46b4ebdef67bf069836536dda5432e19167844"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -1712,8 +1712,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1+4-dev",
-                    "datestamp": "1543988584",
+                    "version": "8.x-1.0-beta1+5-dev",
+                    "datestamp": "1543990980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1735,7 +1735,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/tome"
             },
-            "time": "2018-12-05T06:18:51+00:00"
+            "time": "2018-12-11T17:11:43+00:00"
         },
         {
             "name": "drupal/tome_base",
