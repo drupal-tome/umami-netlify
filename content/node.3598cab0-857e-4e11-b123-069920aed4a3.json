@@ -28,7 +28,11 @@
             "target_uuid": "ab7d90de-645b-48fb-b10f-fd74894d87b4"
         }
     ],
-    "revision_log": [],
+    "revision_log": [
+        {
+            "value": "Updated the <em class=\"placeholder\">Recipe Name<\/em> field through in-place editing."
+        }
+    ],
     "status": [
         {
             "value": true
@@ -36,7 +40,7 @@
     ],
     "title": [
         {
-            "value": "Deep mediterranean quiche"
+            "value": "Deep mediterranean quiche!"
         }
     ],
     "uid": [
@@ -53,7 +57,7 @@
     ],
     "changed": [
         {
-            "value": "2018-07-01T15:11:20+00:00",
+            "value": "2018-12-11T19:10:33+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -80,7 +84,6 @@
     "path": [
         {
             "alias": "\/recipes\/deep-mediterranean-quiche",
-            "pid": 20,
             "langcode": "en"
         }
     ],
