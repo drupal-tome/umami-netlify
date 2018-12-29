@@ -3,5 +3,5 @@ command = "composer install && ./vendor/bin/drush tome:install -y && ./vendor/bi
 publish = "html"
 
 [build.environment]
-PHP_VERSION="7.2"
-NODE_VERSION=9
+PHP_VERSION = "7.2"
+NODE_VERSION = "9"
