@@ -1,5 +1,5 @@
 [build]
-command = "composer install && ./vendor/bin/drush tome:install -y && ./vendor/bin/drush tome:static -l https://umami.netlify.com/ && LUNR_DRUSH=./vendor/bin/drush node web/modules/contrib/lunr/js/index.node.js default"
+command = "composer install && ./vendor/bin/drush tome:install -y && LUNR_DRUSH=./vendor/bin/drush node web/modules/contrib/lunr/js/index.node.js default && ./vendor/bin/drush tome:static -l https://umami.netlify.com/"
 publish = "html"
 
 [build.environment]
