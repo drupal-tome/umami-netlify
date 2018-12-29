@@ -1695,7 +1695,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lunr",
-                "reference": "521fe340d29226a171c036f26038479dc6101620"
+                "reference": "80aee7d1b60100ab2c1edab7e2b495fe08509170"
             },
             "require": {
                 "drupal/core": "*"
@@ -1707,7 +1707,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1545892980",
+                    "datestamp": "1546108980",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -1729,7 +1729,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/lunr"
             },
-            "time": "2018-12-29T18:42:23+00:00"
+            "time": "2018-12-29T23:19:25+00:00"
         },
         {
             "name": "drupal/redirect",
