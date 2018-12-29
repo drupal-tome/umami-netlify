@@ -1,4 +1,4 @@
-uuid: 9ca7fb38-a9a0-4588-91f3-ec38b1835a1f
+uuid: a0cc4c61-b40e-4406-ac13-97a186d5d2ca
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - umami
+    - tome_umami
 _core:
   default_config_hash: z1oCdDauDv3DYvW3WxsR7Yim09mlVHGAxUhZsgtt81Y
-id: umami_main_menu
-theme: umami
+id: tome_umami_main_menu
+theme: tome_umami
 region: header
-weight: -7
+weight: -8
 provider: null
 plugin: 'system_menu_block:main'
 settings:

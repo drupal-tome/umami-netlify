@@ -1,17 +1,17 @@
-uuid: 91487fac-d37a-4a3f-8134-4e9fa8f2ff92
+uuid: d92dcf8c-d572-4d76-a924-f0e83292aa7f
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - umami
+    - tome_umami
 _core:
   default_config_hash: KvJI_Y--78YF9SFpjbnEWhTkRT97dMHIsGYBGT4VOW8
-id: umami_branding
-theme: umami
+id: tome_umami_branding
+theme: tome_umami
 region: header
-weight: -6
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:

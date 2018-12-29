@@ -1,0 +1,30 @@
+uuid: e739a6c4-f1a9-4b03-aa78-3fdbf2721972
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_promo_block:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+  enforced:
+    module:
+      - demo_umami_content
+  module:
+    - block_content
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: eM6fnjb8TvAbqGZ0rVM4WigYMTSYmZ-9-pMGW4sNBwA
+id: tome_umami_footer_promo
+theme: tome_umami
+region: footer
+weight: -1
+provider: null
+plugin: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+settings:
+  id: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+  label: 'Umami footer promo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

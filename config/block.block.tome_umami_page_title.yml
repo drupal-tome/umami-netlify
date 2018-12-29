@@ -1,0 +1,20 @@
+uuid: fd571c3f-ea93-4841-aaf7-e3a022ba6dcc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: q6m4raFgRjMQbo7CkBMUIW1dRS1ix0XNoex2S2NV8sM
+id: tome_umami_page_title
+theme: tome_umami
+region: page_title
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

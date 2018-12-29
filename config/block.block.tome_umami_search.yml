@@ -1,15 +1,15 @@
-uuid: cfa24db1-4399-4a19-aa4b-5984e3377244
+uuid: 3ce171b5-2353-4df1-b4ac-bc1a45a5450a
 langcode: en
 status: false
 dependencies:
   module:
     - search
   theme:
-    - umami
+    - tome_umami
 _core:
   default_config_hash: e2AMQaKaAr8wc7fuChKcD6OS5N77bQWzkPVmPnTDCeE
-id: umami_search
-theme: umami
+id: tome_umami_search
+theme: tome_umami
 region: header
 weight: -5
 provider: null

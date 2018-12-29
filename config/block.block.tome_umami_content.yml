@@ -1,0 +1,22 @@
+uuid: 77a8b732-371b-40e6-ac72-f41d3914c803
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: fAAou3IaVWP7gVizy4k7aJ4njwWF5WnTnCVW68duc6Q
+id: tome_umami_content
+theme: tome_umami
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

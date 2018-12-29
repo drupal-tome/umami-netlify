@@ -1,15 +1,15 @@
-uuid: aca82894-b698-4c68-b8ba-9a151d505665
+uuid: 507a4b48-53a4-4a6f-a4bd-3e5f3efe794a
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - umami
+    - tome_umami
 _core:
   default_config_hash: hwPGi0Da9zOozalnzJ_sBJNI1Z1iM8nQQGhux08_-kM
-id: help
-theme: umami
+id: tome_umami_help
+theme: tome_umami
 region: highlighted
 weight: -7
 provider: null

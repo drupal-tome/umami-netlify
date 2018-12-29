@@ -1,6 +1,7 @@
 [build]
-command = "composer install && ./vendor/bin/drush tome:install -y && ./vendor/bin/drush tome:static -l https://umami.netlify.com/"
+command = "composer install && ./vendor/bin/drush tome:install -y && ./vendor/bin/drush tome:static -l https://umami.netlify.com/ && node web/modules/contrib/lunr/js/index.node.js default"
 publish = "html"
 
 [build.environment]
 PHP_VERSION="7.2"
+NODE_VERSION=9

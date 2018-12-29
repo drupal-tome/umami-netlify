@@ -1,0 +1,26 @@
+uuid: 938043a9-e558-45c6-87a8-08a423971b73
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: V_A9DLAFRV_t_apxzqNfQOEPYgPTWrJcMp_D4TKfsoU
+id: tome_umami_footer
+theme: tome_umami
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Tell us what you think'
+  provider: system
+  label_display: '1'
+  level: 1
+  depth: 0
+visibility: {  }

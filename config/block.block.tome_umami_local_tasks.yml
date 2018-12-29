@@ -1,0 +1,22 @@
+uuid: 360f7540-103a-41f4-980d-c743dc45f9f6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: D_u42KUsn2FJ3U01b1I7e0dyrCHEwk3KbFY1omR1i-s
+id: tome_umami_local_tasks
+theme: tome_umami
+region: tabs
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

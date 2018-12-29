@@ -1,0 +1,23 @@
+uuid: 8f9d2058-7acb-4ed9-82f2-2be47eaeb65d
+langcode: en
+status: true
+dependencies:
+  config:
+    - lunr.lunr_search.default
+  module:
+    - lunr
+  theme:
+    - umami
+id: lunrsearchform
+theme: umami
+region: header
+weight: -8
+provider: null
+plugin: lunr_search
+settings:
+  id: lunr_search
+  label: 'Lunr search form'
+  provider: lunr
+  label_display: '0'
+  lunr_search_id: default
+visibility: {  }
