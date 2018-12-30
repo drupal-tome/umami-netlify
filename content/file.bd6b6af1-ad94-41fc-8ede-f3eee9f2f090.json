@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "bd6b6af1-ad94-41fc-8ede-f3eee9f2f090"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "ae9ce319-3fdc-4abc-a24d-3f5f79363032"
+        }
+    ],
+    "filename": [
+        {
+            "value": "1467076533634.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/1467076533634.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 390642
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-12-30T02:13:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-12-30T02:15:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
