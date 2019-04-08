@@ -11,7 +11,7 @@ _core:
 id: tome_umami_branding
 theme: tome_umami
 region: header
-weight: -7
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:
