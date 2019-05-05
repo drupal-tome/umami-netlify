@@ -1,4 +1,4 @@
-uuid: 507a4b48-53a4-4a6f-a4bd-3e5f3efe794a
+uuid: 42807975-9d44-4be8-9525-6d1b3a38b04d
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: tome_umami_help
 theme: tome_umami
 region: highlighted
-weight: -7
+weight: 0
 provider: null
 plugin: help_block
 settings:

@@ -1,4 +1,4 @@
-uuid: 7dfd42a9-aec7-4062-88d7-5b900b118846
+uuid: cb8e2698-5ab4-4f78-b64e-e98ca8f142b8
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.banner_block
     - field.storage.block_content.field_title
 _core:
-  default_config_hash: JkkMQ9RUdpjg8stD3Gww3EGs8cuxV9yoH1D55cTDsrs
+  default_config_hash: VbPP7mN9cLyZP-APFL19iM8Dg7x9gEeCzzx6MpyZmqo
 id: block_content.banner_block.field_title
 field_name: field_title
 entity_type: block_content
@@ -14,7 +14,7 @@ bundle: banner_block
 label: Title
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,0 +1,50 @@
+{
+    "uuid": [
+        {
+            "value": "4d121173-4077-4c60-85d8-8ddc66dc15e1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [],
+    "filename": [
+        {
+            "value": "watercress-soup-umami.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/watercress-soup-umami.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 31072
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

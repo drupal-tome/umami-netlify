@@ -1,10 +1,9 @@
-uuid: 3c4c7587-a87b-426a-93c4-e764649d3e06
+uuid: 1f6b73c4-533a-4325-87b1-b555c6e77d92
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.recipe.field_author
     - field.field.node.recipe.field_cooking_time
     - field.field.node.recipe.field_difficulty
     - field.field.node.recipe.field_image
@@ -15,11 +14,12 @@ dependencies:
     - field.field.node.recipe.field_recipe_instruction
     - field.field.node.recipe.field_summary
     - field.field.node.recipe.field_tags
+    - field.field.node.recipe.layout_builder__layout
     - node.type.recipe
   module:
     - user
 _core:
-  default_config_hash: 5cm9JfVmGJHwVIKYKpYZX0Q98b-PjoCKfq7DSFSANVg
+  default_config_hash: m9TCfRvi8cmQE4NnxekvN6i9dMlwVQxakS6kGxvadIo
 id: node.recipe.teaser
 targetEntityType: node
 bundle: recipe
@@ -28,10 +28,8 @@ content:
   links:
     weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
-  field_author: true
+  content_moderation_control: true
   field_cooking_time: true
   field_difficulty: true
   field_image: true
@@ -42,3 +40,5 @@ hidden:
   field_recipe_instruction: true
   field_summary: true
   field_tags: true
+  langcode: true
+  layout_builder__layout: true

@@ -1,4 +1,4 @@
-uuid: f25db17f-e4fd-4e06-ad1a-148ee0ed08e6
+uuid: d73c103a-17e4-492f-ade7-d4219482c8d5
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+  default_config_hash: jLkMFqpbSJphJv4MfuLl3wbZ8EBl-5mcjak0erRZ5U0
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -18,23 +18,15 @@ content:
   account:
     weight: -10
     region: content
-    settings: {  }
-    third_party_settings: {  }
   contact:
     weight: 5
     region: content
-    settings: {  }
-    third_party_settings: {  }
   language:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
   timezone:
     weight: 6
     region: content
-    settings: {  }
-    third_party_settings: {  }
   user_picture:
     type: image_image
     settings:
@@ -43,4 +35,5 @@ content:
     third_party_settings: {  }
     weight: -1
     region: content
-hidden: {  }
+hidden:
+  langcode: true

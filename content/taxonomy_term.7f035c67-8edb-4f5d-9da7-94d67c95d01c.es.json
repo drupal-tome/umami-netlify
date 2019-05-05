@@ -1,0 +1,97 @@
+{
+    "uuid": [
+        {
+            "value": "7f035c67-8edb-4f5d-9da7-94d67c95d01c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "recipe_category",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "4c16f107-831c-48e2-a5a6-156fe3100aec"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Acompa\u00f1amiento"
+        }
+    ],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": false
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/recipe-category\/acompa\u00f1amiento",
+            "langcode": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3473ac7f-f795-46cc-9344-faf449f2f98d"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

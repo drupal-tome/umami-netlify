@@ -1,0 +1,97 @@
+{
+    "uuid": [
+        {
+            "value": "1a6b39d3-83cc-41b9-bf4a-56eca795ae3a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "d6e99fba-3384-40a4-b89f-74ec04f16482"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Baked"
+        }
+    ],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/tags\/baked",
+            "langcode": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3473ac7f-f795-46cc-9344-faf449f2f98d"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

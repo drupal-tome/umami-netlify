@@ -1,4 +1,4 @@
-uuid: b4be41b3-fb4c-43c2-b2cf-be396cba698a
+uuid: 1a9eb1c9-1766-4c2e-bf18-bc61071ebd3a
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: U_NxRw_cXr7H4TaAnRQtDSDrQnKBEdd7amWMWcj4l-0
+  default_config_hash: ylkaRE7Ts74VVypsJXijqCCg13lYX4XigGlA2Q5W_3A
 id: block_content.banner_block.field_content_link
 field_name: field_content_link
 entity_type: block_content
@@ -16,7 +16,7 @@ bundle: banner_block
 label: 'Content Link'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

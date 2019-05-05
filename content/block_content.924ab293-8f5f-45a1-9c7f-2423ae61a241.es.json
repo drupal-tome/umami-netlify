@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "924ab293-8f5f-45a1-9c7f-2423ae61a241"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "footer_promo_block",
+            "target_type": "block_content_type",
+            "target_uuid": "6422d3bc-fe03-4218-938d-00479154271e"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Umami Pie de Pagina Promocional"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": false
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3473ac7f-f795-46cc-9344-faf449f2f98d"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_content_link": [
+        {
+            "uri": "internal:\/acerca-de-umami",
+            "title": "M\u00e1s informaci\u00f3n",
+            "options": []
+        }
+    ],
+    "field_promo_image": [
+        {
+            "alt": "Paquete de 3 ediciones de la revista de comida Umami",
+            "title": null,
+            "width": 266,
+            "height": 236,
+            "target_type": "file",
+            "target_uuid": "a177d13f-580e-4541-a0ee-922e6d66f357"
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "Trucos y consejos. Art\u00edculos exclusivos de la revista, recetas y una variedad de razones para conseguir tu copia hoy."
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Revista de Comida Umami"
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-uuid: 938043a9-e558-45c6-87a8-08a423971b73
+uuid: 0775db7b-4fd5-4814-bc9c-174a8997923d
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - tome_umami
 _core:
-  default_config_hash: V_A9DLAFRV_t_apxzqNfQOEPYgPTWrJcMp_D4TKfsoU
+  default_config_hash: aON0yqk63ga8MocfOehPS4McI4tOXUuz0lvkNgcZJn4
 id: tome_umami_footer
 theme: tome_umami
 region: footer
@@ -23,4 +23,5 @@ settings:
   label_display: '1'
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

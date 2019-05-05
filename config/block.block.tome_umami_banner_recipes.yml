@@ -1,4 +1,4 @@
-uuid: 6e40e362-c0b6-479b-9593-1de9f1219fbd
+uuid: 116febe6-9a61-4649-bbe9-2ce651000253
 langcode: en
 status: true
 dependencies:
@@ -13,11 +13,11 @@ dependencies:
   theme:
     - tome_umami
 _core:
-  default_config_hash: avMRG5BtP0-47yiSruQWrmR76WZko60hftswPHIebjI
+  default_config_hash: GV14DJgIYE6E2q5G4j5sZUDkVLOjAEYDFs-8PwlsukM
 id: tome_umami_banner_recipes
 theme: tome_umami
 region: banner_top
-weight: -10
+weight: -8
 provider: null
 plugin: 'block_content:4c7d58a3-a45d-412d-9068-259c57e40541'
 settings:
@@ -31,6 +31,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/recipes\r\n<front>"
+    pages: "/recipes\r\n"
     negate: false
     context_mapping: {  }

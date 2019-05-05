@@ -1,4 +1,4 @@
-uuid: 5e702b42-98a8-4dd6-9485-4a26af221188
+uuid: c148aa68-aea4-4539-9788-89b626232f2d
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: dvo67FKFZ3gD8rykZkbhfbfIf7ZvZIkQXhpYO1vJKqw
+  default_config_hash: aDC2otQbjpXPikkXgzpdymN4Xi253X2915mTxMGI95o
 id: block_content.footer_promo_block.field_promo_image
 field_name: field_promo_image
 entity_type: block_content
@@ -16,7 +16,7 @@ bundle: footer_promo_block
 label: 'Promo image'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

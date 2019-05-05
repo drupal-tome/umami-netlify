@@ -1,9 +1,9 @@
-uuid: 84227a17-e7cf-4af8-87d2-9df8118e8642
+uuid: 975f84c2-8280-42b4-807e-4a1fc07e3651
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: JMnuxGrW0YdPy36GdH1jsH7x79LPZlRsLxZs6sQEWXY
+  default_config_hash: Mn3LzzwSMr3KjCub1Ta_Iy0hQncxMVIT1OThlmyR_lU
 name: medium_3_2_600x400
 label: 'Medium 3:2 (600x400)'
 effects:
@@ -12,6 +12,6 @@ effects:
     id: image_scale_and_crop
     weight: 1
     data:
+      anchor: center-center
       width: 600
       height: 400
-      anchor: center-center

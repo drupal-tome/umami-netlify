@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "9aadf4a1-ded6-4017-a10d-a5e043396edf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "banner_block",
+            "target_type": "block_content_type",
+            "target_uuid": "b8451d93-1ee6-43c7-b5ef-c34860031235"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Umami Casa Pancarta"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": false
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3473ac7f-f795-46cc-9344-faf449f2f98d"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_banner_image": [
+        {
+            "alt": "Pasta vegetariana al horno con una rica salsa de tomate cubierta de queso que har\u00e1 que se te haga la boca agua.",
+            "title": null,
+            "width": 3000,
+            "height": 1571,
+            "target_type": "file",
+            "target_uuid": "b789e30b-5715-4fda-9cd9-86299b216ebc"
+        }
+    ],
+    "field_content_link": [
+        {
+            "uri": "internal:\/es\/recipes\/pasta-vegetariana-horno-super-facil",
+            "title": "Ver receta",
+            "options": []
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "Una pasta al horno es la comida m\u00e1s reconfortante que hay. Este plato al horno es s\u00faper r\u00e1pido de preparar y es ideal para cocinar entre semana para toda la familia."
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Pasta vegetariana horneada s\u00faper f\u00e1cil"
+        }
+    ]
+}

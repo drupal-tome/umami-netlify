@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "9aadf4a1-ded6-4017-a10d-a5e043396edf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "banner_block",
+            "target_type": "block_content_type",
+            "target_uuid": "b8451d93-1ee6-43c7-b5ef-c34860031235"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Umami Home Banner"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3473ac7f-f795-46cc-9344-faf449f2f98d"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "field_banner_image": [
+        {
+            "alt": "Mouth watering vegetarian pasta bake with rich tomato sauce and cheese toppings",
+            "title": null,
+            "width": 3000,
+            "height": 1571,
+            "target_type": "file",
+            "target_uuid": "4d46fe0a-350e-4843-8ad5-8c5181e2f1df"
+        }
+    ],
+    "field_content_link": [
+        {
+            "uri": "internal:\/en\/recipes\/super-easy-vegetarian-pasta-bake",
+            "title": "View recipe",
+            "options": []
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family."
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Super easy vegetarian pasta bake"
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-uuid: 03c01e2a-f787-4360-bbc1-010c4f7be4d9
+uuid: 4f25a38b-90e3-44f4-9280-65bd74cf7196
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - node.type.recipe
     - taxonomy.vocabulary.recipe_category
 _core:
-  default_config_hash: 6wO6a2Er6JzYlsHrhgrNGfgEZpNqJFghCTECTofmCsY
+  default_config_hash: 6_pcuNngy1UxIFqBzOMSKXUUmau-PLMqdq8hYQ1sfMc
 id: node.recipe.field_recipe_category
 field_name: field_recipe_category
 entity_type: node
@@ -15,7 +15,7 @@ bundle: recipe
 label: 'Recipe category'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

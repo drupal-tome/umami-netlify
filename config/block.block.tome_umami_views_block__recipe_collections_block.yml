@@ -1,0 +1,26 @@
+uuid: 8c682482-e977-4d5f-99c2-8a19a41b5673
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recipe_collections
+  module:
+    - views
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: E0HLSvcSJo84yye98a8UbxEugNebWa1XQAmUxBSXuus
+id: tome_umami_views_block__recipe_collections_block
+theme: tome_umami
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'views_block:recipe_collections-block'
+settings:
+  id: 'views_block:recipe_collections-block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

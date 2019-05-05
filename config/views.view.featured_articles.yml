@@ -1,16 +1,16 @@
-uuid: badc12f3-c99e-46fc-810e-4db387b2b359
+uuid: 89f497e0-fde4-4ae0-8339-95f9d2860641
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.highlighted_small
+    - core.entity_view_mode.node.card
     - node.type.article
     - system.menu.main
   module:
     - node
     - user
 _core:
-  default_config_hash: FVdb8hlPPEm2qIpcMyUtxYL3aIGwW0yxEV6Sji4JpiE
+  default_config_hash: xpzP6hLV6g3cT1MSWBPwDQ-IXXH-WUfYJvKOTy6sK3c
 id: featured_articles
 label: 'Featured Articles'
 module: views
@@ -75,7 +75,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: highlighted_small
+          view_mode: card
       fields:
         title:
           id: title
@@ -145,6 +145,46 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
       sorts:
         created:
           id: created
@@ -161,6 +201,20 @@ display:
           expose:
             label: ''
           granularity: second
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: node
+          entity_field: nid
+          plugin_id: standard
       title: Articles
       header: {  }
       footer: {  }

@@ -1,8 +1,8 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: core/profiles/demo_umami/themes/umami/favicon.ico
   url: ''
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
@@ -13,4 +13,4 @@ logo:
   url: ''
   use_default: true
 _core:
-  default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8
+  default_config_hash: mq0GwPW78Idsr_iw5MbQqNfMKLYUUXJfWIP2msu5RNs

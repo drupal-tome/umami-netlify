@@ -1,16 +1,16 @@
-uuid: bdb263a5-e99d-4aa8-b313-5e15270efb7d
+uuid: d60b6a8c-cada-4618-9be7-3e9d07f38ace
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.highlighted_small
+    - core.entity_view_mode.node.card
     - node.type.recipe
     - system.menu.main
   module:
     - node
     - user
 _core:
-  default_config_hash: hnN2XTEoNlv2FM-xDxKage4E51HeyWmiSFLhAUw5E8s
+  default_config_hash: PtbG_KZ5_CD_zUmVn1OkWvhuVMhVCQnOkNF8Y2HHg_g
 id: recipes
 label: Recipes
 module: views
@@ -75,7 +75,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: highlighted_small
+          view_mode: card
       fields:
         title:
           id: title
@@ -145,6 +145,46 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
       sorts:
         created:
           id: created
@@ -161,6 +201,20 @@ display:
           expose:
             label: ''
           granularity: second
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: node
+          entity_field: nid
+          plugin_id: standard
       title: Recipes
       header: {  }
       footer: {  }

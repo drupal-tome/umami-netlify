@@ -1,0 +1,187 @@
+{
+    "uuid": [
+        {
+            "value": "b35105b4-e0fc-4857-9b26-e2bb585dd81f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "recipe",
+            "target_type": "node_type",
+            "target_uuid": "f99c2aec-7529-44f3-9d50-310a035de106"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "d2a2d987-3c7a-4f12-ae0b-604fd26ef8d5"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "d2a2d987-3c7a-4f12-ae0b-604fd26ef8d5"
+        }
+    ],
+    "title": [
+        {
+            "value": "Gluten free pizza"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "moderation_state": [
+        {
+            "value": "published"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/recipes\/gluten-free-pizza",
+            "langcode": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "field_cooking_time": [
+        {
+            "value": 15
+        }
+    ],
+    "field_difficulty": [
+        {
+            "value": "medium"
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Olives, basil, and mozzarella top a gluten free pizza crust with marinara sauce.",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "1bd6970f-9afe-4f85-9ab3-44eb3495d28c"
+        }
+    ],
+    "field_ingredients": [
+        {
+            "value": "400g gluten free flour"
+        },
+        {
+            "value": " 125ml warm water"
+        },
+        {
+            "value": " 125ml milk"
+        },
+        {
+            "value": " 1 sachet dried yeast"
+        },
+        {
+            "value": " 2 tsp sugar"
+        },
+        {
+            "value": " 1 tsp salt"
+        },
+        {
+            "value": " 2 tbsp olive oil"
+        },
+        {
+            "value": " 4 tbsp tomato puree"
+        },
+        {
+            "value": " 1 garlic clove"
+        },
+        {
+            "value": " Fresh basil"
+        },
+        {
+            "value": " 200g mozzarella"
+        },
+        {
+            "value": " 100g rocket"
+        },
+        {
+            "value": " 5 slices Parma ham"
+        }
+    ],
+    "field_number_of_servings": [
+        {
+            "value": 4
+        }
+    ],
+    "field_preparation_time": [
+        {
+            "value": 15
+        }
+    ],
+    "field_recipe_category": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "43a3b760-32c3-493a-a527-c47a4de84eeb"
+        }
+    ],
+    "field_recipe_instruction": [
+        {
+            "value": "<ol>\n  <li>Preheat the oven to 425\u00b0F\/220\u00b0C. Mix some of the milk and water in a jug, and add the yeast and sugar, then set aside.<\/li>\n  <li>In a bowl, mix the flour, salt and oil. Slowly add the liquid from the jug and form into a dough.<\/li>\n  <li>Break the dough in half and shape into two pizza bases. Set aside for about 15 minutes, whilst making the topping.<\/li>\n  <li>Spread the tomato puree over the pizza bases, chop the basil and rocket and sprinkle over the tomato. Lay the chopped Parma ham on top and add thick slices of mozzarella across the pizza.<\/li>\n  <li>Cook in the oven directly on the top shelf (with a tray underneath) for 10-12 minutes until the mozzarella is bubbling. Season with salt and pepper and serve.<\/li>\n<\/ol>\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "A gorgeous and simple gluten free pizza, with deliciously indulgent mozzarella and Parma ham. Can easily be vegetarian by leaving out the ham.",
+            "format": "basic_html"
+        }
+    ],
+    "field_tags": []
+}

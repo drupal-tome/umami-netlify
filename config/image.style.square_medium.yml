@@ -1,9 +1,9 @@
-uuid: fe44805b-7d10-4002-b4ff-5a34bbcddc2c
+uuid: 9fed84a3-d1a6-4fa2-856b-fb609f67c160
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 5J5A6nuA5-ChjDZBv2XRszQx-GT00CRx5ta0PXIAaJI
+  default_config_hash: oihuvjBxyykypMXyHYs1CNNm8NOdPNZZL82y4-aUGr8
 name: square_medium
 label: 'Square Medium'
 effects:
@@ -12,6 +12,6 @@ effects:
     id: image_scale_and_crop
     weight: 1
     data:
+      anchor: center-center
       width: 600
       height: 600
-      anchor: center-center

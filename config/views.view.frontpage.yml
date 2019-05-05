@@ -1,16 +1,16 @@
-uuid: 2aa9ceae-5ba1-4056-be29-5044e37354dc
+uuid: 90ef208b-e957-48f4-8f70-2b2e1674632b
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.highlighted_bottom
+    - core.entity_view_mode.node.card_common
     - core.entity_view_mode.node.rss
     - node.type.recipe
   module:
     - node
     - user
 _core:
-  default_config_hash: OJdhTIMi_eWjiHcTkoEXAKwvmpwsDIQgEv8M2AtzPJM
+  default_config_hash: DlLP4bxuOm24qTUGR98RLHIm0tn0WRGu-8fjMaIJhzQ
 id: frontpage
 label: Frontpage
 module: node
@@ -221,7 +221,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: highlighted_bottom
+          view_mode: card_common
       sorts:
         sticky:
           admin_label: ''
@@ -252,6 +252,20 @@ display:
           granularity: second
           entity_type: node
           entity_field: created
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: node
+          entity_field: nid
+          plugin_id: standard
       style:
         type: default
         options:
@@ -259,7 +273,7 @@ display:
           row_class: ''
           default_row_class: true
           uses_fields: false
-      title: Recipes
+      title: Home
       header:
         area:
           id: area

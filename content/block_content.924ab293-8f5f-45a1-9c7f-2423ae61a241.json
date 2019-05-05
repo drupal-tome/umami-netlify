@@ -13,12 +13,12 @@
         {
             "target_id": "footer_promo_block",
             "target_type": "block_content_type",
-            "target_uuid": "07879a5b-e91f-43d5-9b51-269fdfbfb5bf"
+            "target_uuid": "6422d3bc-fe03-4218-938d-00479154271e"
         }
     ],
     "revision_created": [
         {
-            "value": "2018-07-01T15:11:20+00:00",
+            "value": "2019-05-05T05:59:35+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -36,8 +36,13 @@
     ],
     "changed": [
         {
-            "value": "2018-07-01T15:11:20+00:00",
+            "value": "2019-05-05T05:59:35+00:00",
             "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
         }
     ],
     "default_langcode": [
@@ -48,6 +53,28 @@
     "revision_translation_affected": [
         {
             "value": true
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "content_translation_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3473ac7f-f795-46cc-9344-faf449f2f98d"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "field_content_link": [
@@ -64,7 +91,7 @@
             "width": 266,
             "height": 236,
             "target_type": "file",
-            "target_uuid": "7ed72494-59af-45be-ad35-6b84e7d37c26"
+            "target_uuid": "b212da0e-fffa-4228-ac07-790324c4aeb1"
         }
     ],
     "field_summary": [

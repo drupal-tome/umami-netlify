@@ -1,4 +1,4 @@
-uuid: 8d367dd7-bea2-4d72-88e0-c18f33fb2253
+uuid: 7b558005-6de7-4945-b0f0-2c5f7b1d3d22
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: RVHsGyJPrgw7T4oaALBC0hhhLuj2C5Ex-kBhcDE_gtA
+  default_config_hash: QqAyxajD50F2l5mg8ljU9DCr-jzQiv2h2Bl3VmV5eZc
 id: block_content.banner_block.field_banner_image
 field_name: field_banner_image
 entity_type: block_content
@@ -16,7 +16,7 @@ bundle: banner_block
 label: 'Banner image'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

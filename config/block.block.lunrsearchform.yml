@@ -1,4 +1,4 @@
-uuid: 8f9d2058-7acb-4ed9-82f2-2be47eaeb65d
+uuid: 4bfa200b-a4c1-48a0-a7fe-16d0b7919263
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - lunr
   theme:
-    - umami
+    - tome_umami
 id: lunrsearchform
-theme: umami
-region: header
-weight: -8
+theme: tome_umami
+region: pre_header
+weight: 0
 provider: null
 plugin: lunr_search
 settings:

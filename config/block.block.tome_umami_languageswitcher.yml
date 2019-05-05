@@ -1,0 +1,22 @@
+uuid: 047d5756-41cb-40a1-b714-8388840466f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - tome_umami
+_core:
+  default_config_hash: DqYisvDJbN_j5fWBCF6RVDYi5ZV62Yy8DABdtvRigME
+id: tome_umami_languageswitcher
+theme: tome_umami
+region: pre_header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

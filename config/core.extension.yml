@@ -7,11 +7,14 @@ module:
   ckeditor: 0
   color: 0
   config: 0
+  config_translation: 0
   contact: 0
+  content_moderation: 0
   contextual: 0
   datetime: 0
   dblog: 0
   demo_umami_content: 0
+  demo_umami_tour: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -21,8 +24,13 @@ module:
   help: 0
   history: 0
   image: 0
+  language: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
+  locale: 0
   lunr: 0
+  media: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -30,7 +38,6 @@ module:
   path: 0
   quickedit: 0
   rdf: 0
-  redirect: 0
   responsive_image: 0
   serialization: 0
   shortcut: 0
@@ -47,7 +54,9 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  workflows: 0
   menu_link_content: 1
+  content_translation: 10
   views: 10
   demo_umami: 1000
 theme:

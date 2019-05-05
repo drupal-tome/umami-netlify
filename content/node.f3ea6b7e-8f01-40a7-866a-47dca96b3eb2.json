@@ -1,0 +1,136 @@
+{
+    "uuid": [
+        {
+            "value": "f3ea6b7e-8f01-40a7-866a-47dca96b3eb2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "c4cc74bb-1f78-41e6-b691-a37ca22f402b"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "d2a2d987-3c7a-4f12-ae0b-604fd26ef8d5"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "d2a2d987-3c7a-4f12-ae0b-604fd26ef8d5"
+        }
+    ],
+    "title": [
+        {
+            "value": "Give your oatmeal the ultimate makeover"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-05T05:59:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "moderation_state": [
+        {
+            "value": "published"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/articles\/give-your-oatmeal-the-ultimate-makeover",
+            "langcode": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\nIt is vegan, gluten-free, low in fat, high in fiber, and can even lower cholesterol - but oatmeal is boring, right? Well, before you write off that boring jar of oats, you might want to take inspiration from our topping ideas that will take your oatmeal from bland to creatively delicious in just a few minutes.\n<\/p>\n\n<p>\nCall it oatmeal, porridge, hot cereal, or just plain oats, it is loved the world over; but recently, the humble oat is getting a funky makeover. Long gone are the days of stodgy breakfast bowls of thick gloop, because oats are getting served up as a delicious meal that can suit any time of the day. Trendy build-your-own oatmeal bars are popping up, and they are providing the ultimate oatmeal experience. Diners can choose their oats to be made with milk or water and then go to town with their choice of favorite toppings - sweet, savory, or even spicy.\n<\/p>\n\n<p>\nIt sounds great, doesn\u2019t it? So before you close the cupboard door on that bland-looking jar of oats, we think you should try some of these scrumptious topping ideas to inspire your very own oatmeal makeover.\n<\/p>\n\n\n<h2>Soaked dried fruit<\/h2>\n\n<p>\nSometimes plain dried fruit can be a bit chewy and harsh when combined with creamy oats. But if you simply soak your dried fruit in orange juice overnight, they develop a tang, and they swell up, making them softer and even more delicious. Plus the splash of color can really brighten your day.\n<\/p>\n\n\n<h2>Porridge cr\u00e8me br\u00fbl\u00e9e<\/h2>\n\n<p>\nSo simple - but why has no one thought of it before? Put your cooked oatmeal into a ramekin, sprinkle with sugar, and pop under the grill. The sugar will harden, giving you the delight of cracking through the surface and scooping out the creamy deliciousness beneath. If you are really professional, you can use a blow torch.\n<\/p>\n\n<h2>Super seeds<\/h2>\n\n<p>\nFor a more savory meal option, cook your oats with water, a little salt, and sprinkle with toasted seeds. You can choose any that you enjoy, but pumpkin seeds, sesame, linseed, and sunflower seeds are especially good. Some supermarkets also sell seed blends to make the job even easier.\n<\/p>\n\n<h2>Deconstructed carrot cake<\/h2>\n\n<p>\nCook your oats with grated carrots and a little sugar, then top with a sprinkle of cinnamon, chopped walnuts, and a dollop of sweetened cream cheese. If you don\u2019t love this, there\u2019s something wrong with your taste buds.\n<\/p>\n\n<h2>Dark chocolate<\/h2>\n\n<p>\nThis low-sugar delight will meet all of those chocolate cravings and is the perfect dessert. Add a spoonful of cocoa to your oatmeal as it cooks, then top with a few squares of dark chocolate. As it melts, simply swirl into the bowl as artfully as you can. If you are really decadent, a squirt of whipped cream will add further delights.\n<\/p>\n",
+            "format": "basic_html",
+            "summary": null
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Oatmeal topped with a vibrant mix of berries, nuts, and seeds",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "60958582-65a8-4de5-85a0-fddc7559d8b5"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "f208a6a5-7300-4758-a0a0-9f14a4de8e1b"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "4e16a199-1815-4f42-9a69-3825ffc5ed09"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "9e3cdaec-052f-4373-b300-d22eeead5005"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "38a201eb-a4ad-4195-9eca-96a647c35ede"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "2bac6789-cb1c-4cae-8635-d8e7750e657a"
+        }
+    ]
+}

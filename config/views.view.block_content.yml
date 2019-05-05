@@ -1,4 +1,4 @@
-uuid: ccff45d8-ce19-4a8a-b30b-7c8a20996c22
+uuid: 7bc7c8a1-1c77-49fb-93ea-0421bd67f73b
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - user
 _core:
-  default_config_hash: gkRJCqHr3uSO8ALHLatX-7YKfX0lWEgkC5qMBtCf_Sg
+  default_config_hash: BmeDSOTSaTVy5QLgxgJ5ye_ZseG5t88JXRP1apFoBkk
 id: block_content
 label: 'Custom block library'
 module: views
@@ -455,6 +455,8 @@ display:
             required: false
             remember: false
             multiple: false
+            remember_roles:
+              authenticated: authenticated
           is_grouped: false
           group_info:
             label: ''
