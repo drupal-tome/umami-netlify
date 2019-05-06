@@ -37,6 +37,7 @@ module:
   page_cache: 0
   path: 0
   quickedit: 0
+  quicklink: 0
   rdf: 0
   responsive_image: 0
   serialization: 0
