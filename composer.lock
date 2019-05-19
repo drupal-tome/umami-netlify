@@ -2196,7 +2196,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lunr.git",
-                "reference": "623ac179379313131cb83f45776857315f22fe21"
+                "reference": "defa3e162976f74e82a54ae40d1c4e39123e90b9"
             },
             "require": {
                 "drupal/core": "*"
@@ -2230,7 +2230,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/lunr"
             },
-            "time": "2019-05-17T22:42:28+00:00"
+            "time": "2019-05-19T05:39:43+00:00"
         },
         {
             "name": "drupal/quicklink",
