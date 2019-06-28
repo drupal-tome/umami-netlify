@@ -1,0 +1,105 @@
+{
+    "uuid": [
+        {
+            "value": "1c97e8e9-5b6a-4e67-a7ac-70a8bb48e9ec"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "c4cc74bb-1f78-41e6-b691-a37ca22f402b"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-06-28T15:14:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd42a577-1280-4df0-b9c3-6c300f2e0af9"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd42a577-1280-4df0-b9c3-6c300f2e0af9"
+        }
+    ],
+    "title": [
+        {
+            "value": "New article"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-28T15:13:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T15:14:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published"
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "body": [],
+    "field_image": [],
+    "field_tags": []
+}
