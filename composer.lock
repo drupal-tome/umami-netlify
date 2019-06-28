@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d294a1fed3f1b2c352d12a92fe317f2",
+    "content-hash": "1c87784c6d8ab54c591bbe060adb7c36",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1921,16 +1921,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-tome/tome_drush.git",
-                "reference": "f0d644187998b6c637a64e11bc8398f723d859ad"
+                "reference": "7b235d3012866db6c402eb7c9c5e5caf48303f58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-tome/tome_drush/zipball/f0d644187998b6c637a64e11bc8398f723d859ad",
-                "reference": "f0d644187998b6c637a64e11bc8398f723d859ad",
+                "url": "https://api.github.com/repos/drupal-tome/tome_drush/zipball/7b235d3012866db6c402eb7c9c5e5caf48303f58",
+                "reference": "7b235d3012866db6c402eb7c9c5e5caf48303f58",
                 "shasum": ""
             },
             "require": {
-                "drush/drush": "^9.0.0"
+                "drush/drush": "^9.6.0"
             },
             "type": "drupal-drush",
             "notification-url": "https://packagist.org/downloads/",
@@ -1944,7 +1944,7 @@
                 }
             ],
             "description": "Contains global Drush commands for initializing and installing Tome.",
-            "time": "2018-10-27T22:33:32+00:00"
+            "time": "2019-06-05T00:06:12+00:00"
         },
         {
             "name": "drupal/core",
@@ -2344,7 +2344,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/tome.git",
-                "reference": "d14131f9a27d5cfd3efb40913590822ba02fd524"
+                "reference": "5c8dd670d90aeceaf890074c16633a6005bb0e90"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -2362,8 +2362,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-rc1+1-dev",
-                    "datestamp": "1555792081",
+                    "version": "8.x-1.0-rc2+9-dev",
+                    "datestamp": "1560661684",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -2385,7 +2385,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/tome"
             },
-            "time": "2019-04-20T20:32:50+00:00"
+            "time": "2019-06-16T05:56:09+00:00"
         },
         {
             "name": "drupal/tome_base",
@@ -2423,6 +2423,49 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/tome"
             }
+        },
+        {
+            "name": "drupal/tome_git",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tome_git.git",
+                "reference": "2b9b24bb39d1321318b15ef2ce68f54440804162"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/tome_sync": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1561046585",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Allows you to commit your Tome changes on the command line.",
+            "homepage": "https://www.drupal.org/project/tome_git",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tome_git"
+            },
+            "time": "2019-06-21T05:43:26+00:00"
         },
         {
             "name": "drupal/tome_netlify",
@@ -5866,7 +5909,8 @@
         "drupal/tome": 20,
         "drupal-tome/tome_drush": 20,
         "drupal/tome_netlify": 20,
-        "drupal/lunr": 20
+        "drupal/lunr": 20,
+        "drupal/tome_git": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
