@@ -793,3 +793,5 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'demo_umami';
 $config_directories['sync'] = '../config';
+
+$settings['tome_git_ssh_key'] = '~/.ssh/umami_netlify_rsa';
