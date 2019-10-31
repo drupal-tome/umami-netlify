@@ -23,7 +23,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/core": "^8.7",
         "drush/drush": "^9.0.0",
-        "drupal/tome": "1.x-dev",
+        "drupal/tome": "^1.0",
         "drupal-tome/tome_drush": "dev-master",
         "drupal/tome_netlify": "1.x-dev",
         "drupal/lunr": "1.x-dev",
