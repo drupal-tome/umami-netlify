@@ -8,13 +8,15 @@ mkdir -p "$NETLIFY_BUILD_BASE/cache"
 
 # Load the last database backup if available.
 if [ -f "$NETLIFY_BUILD_BASE/cache/.ht.sqlite" ]; then
-    echo "Cache build found - running partial import"
+    echo "Cache database found - running partial import"
 
+    mkdir -p ./web/sites/default/files
     cp "$NETLIFY_BUILD_BASE/cache/.ht.sqlite" ./web/sites/default/files/.ht.sqlite
     ./vendor/bin/drush tome:import-partial -y
 
     # Load the last static build if available.
     if [ -f "$NETLIFY_BUILD_BASE/cache/html"; then
+        echo "Cached static build found"
         cp -r "$NETLIFY_BUILD_BASE/cache/html" ./html
     fi
 else
