@@ -15,7 +15,7 @@ if [ -f "$NETLIFY_BUILD_BASE/cache/.ht.sqlite" ]; then
     ./vendor/bin/drush tome:import-partial -y
 
     # Load the last static build if available.
-    if [ -f "$NETLIFY_BUILD_BASE/cache/html"; then
+    if [ -f "$NETLIFY_BUILD_BASE/cache/html" ]; then
         echo "Cached static build found"
         cp -r "$NETLIFY_BUILD_BASE/cache/html" ./html
     fi
